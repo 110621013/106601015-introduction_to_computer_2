@@ -1,0 +1,15 @@
+package hw;
+import java.util.Scanner;
+
+public class hw1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		float s = 0;
+        System.out.print("Please input your name: ");
+        System.out.printf("Hello! %s!", scanner.next());
+		System.out.print("test ok");
+	}
+
+}

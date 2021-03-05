@@ -1,0 +1,23 @@
+package hw;
+import java.util.Scanner;
+
+public class hw1 {
+
+	public static void main(String[] args) {
+		// calculate avenger
+		Scanner scanner = new Scanner(System.in);
+		float avenger = 0;
+		for(int i = 1; i <= 3; i++){
+			avenger += scanner.nextFloat();
+			//System.out.printf("%f", avenger);
+        }
+		avenger = avenger/3;
+		System.out.printf("%f", avenger);
+		
+		
+		// print avenger score and level
+        System.out.printf("%f", avenger/3);
+		
+	}
+
+}
